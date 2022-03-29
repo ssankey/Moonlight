@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Montserrat:ital,wght@0,100;0,300;0,400;1,100&family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    width: 90%;
+    margin: 0 auto;
+    height: 50vh;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+}
+
+.banner .title-left{
+    width: 70%;
+    padding: 1.2rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.banner .content-right{
+    font-size: 1rem;
+    padding: 1rem;
+    width: 80%;
+    line-height: 2rem;
+}
+
+.banner .content-right button{
+    padding: .81rem 5rem;
+    margin-top: 3rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #efa593;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.imgBx1{
+
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 2rem;
+    height: 300px;      
+  }
+  .imgBx1 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .who-are-we{
+      width: 90%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 4fr;
+      justify-content: center;
+      background-color: #efefef;
+  }
+
+  .who-are-we .imgBx2{
+    position: relative;
+    width: 100%;
+    border-radius: 2rem;
+    height: 600px;
+  }
+
+  .who-are-we .imgBx2 img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 2px solid black;
+        object-fit: cover;
+      }
+  .who-are-we .who-right{
+    padding: 5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+  .who-are-we .who-right h2{
+      font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .who-are-we .who-right p{ 
+      margin-top: 2rem;     
+      font-size: 1.22rem;
+      line-height: 2.4rem;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  .vis-mis{
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      width: 90%;
+      margin: 0 auto;
+  }
+
+  .vis-mis .vision{
+      padding: 2rem;
+      width: 90%;
+      margin: 0 auto;
+  }
+
+  .vis-mis .vision h2{
+      font-size: 2.3rem;
+      font-family: 'Montserrat', sans-serif;
+}
+
+.vis-mis .vis-text li,.mis-text li{
+    margin-top: 1.82rem;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.vis-mis .mis-text{
+    margin-top: 4rem;
+}
+
+.imgBx3{
+    position: relative;
+    width: 45%;
+    height: 400px;
+}
+
+.imgBx3 img{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .offer{
+      width: 90%;
+      margin: 0 auto;
+      background-color: #efefef;
+  }
+  .offer h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 7rem;
+  }
+  .offer-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  .offer-grid .offer-cards .imgBx4{
+    position: relative;
+    width: 100%;
+    height: 160px;
+    background-color: black;
+  }
+  .offer-grid .offer-cards{
+      height: 350px;
+      width: 60%;
+      background-color: white;
+      margin: 0 auto 2rem;
+  }
+  .offer-grid .offer-cards .offer-text{
+      padding: 2rem .81rem;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.5rem;
+    }
+
+    .offer-grid .offer-cards .offer-text h3{
+        font-weight: 800;
+    }
+
+    .offer-grid .offer-cards .offer-text p{
+        margin-top: 1rem;
+        font-weight: 500;
+        color: black;
+    }
+
+    .partners{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .partners h1{
+        padding: 2rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .partners li{
+        font-family: 'Montserrat', sans-serif;
+        line-height: 2rem;
+        margin-left: 5rem;
+        white-space: normal;
+        font-size: 1.2rem;
+        }
+
+    .contact{
+        width: 90%;
+        margin: 5rem auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #efefef;
+    }
+    .contact .contact-left{
+        padding: 3rem;
+    }
+    .contact .contact-left h1{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .contact .contact-left p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    .contact .contact-left .btn{
+        margin-top: 5rem;
+        padding: 1rem 5rem;
+        border: none;
+        background-color: #efa593;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 2px;
+        font-weight: 800;           
+    }
+
+
+@media screen and (max-width:1024px) {
+    .banner{
+        background-color: antiquewhite;
+        height: auto;
+    }
+
+    .vis-mis{
+    grid-template-columns: 2fr 1fr;
+    }
+    .imgBx3{
+        width: 100%;
+    }
+    .imgBx3 img{
+        left: 0;
+    }
+
+    .offer-grid .offer-cards{
+        width: 80%;
+        height: auto;
+    }
+    .offer h2{
+        margin-left: 3rem;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .banner .content-right{
+        width: 100%;
+    }
+    .who-are-we .who-right{
+        padding: 0;
+    }
+    .vis-mis{
+        grid-template-columns: 1fr;
+    }
+    .imgBx3{
+        display: none;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .banner{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+     .banner .title-left{
+         padding: 0;
+     }   
+     .banner .content-right{
+         width: 100%;
+     }
+    .offer-grid{
+        grid-template-columns: 1fr;
+    }
+    .contact{
+        grid-template-columns: 1fr;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .who-are-we{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .who-are-we .who-right{
+        width: 100%;
+        padding: 2rem 1rem 1rem;
+    }
+    .imgBx1{
+        display: none;
+    }
+
+    .vis-mis{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .imgBx3 {
+        display: none;
+    }
+    .offer{
+        width: 100%;
+        margin-top: 5rem;
+    }
+    .partners{
+        width: 100%;
+    }
+    .contact .contact-left{
+        padding: 1rem;
+    }
+    .partners li{
+        margin-left: 3rem;
+    }
+}
